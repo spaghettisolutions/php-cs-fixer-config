@@ -59,5 +59,5 @@ return (new Config())
         'yoda_style' => true,
     ], )
     ->setRiskyAllowed(isRiskyAllowed: true, )
-    ->setCacheFile(cacheFile: '.php-cs-fixer.cache', )
+    ->setCacheFile(cacheFile: getcwd() . '/.php-cs-fixer.cache', )
     ->setFinder(finder: $finder);
