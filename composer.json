@@ -1,0 +1,30 @@
+{
+    "name": "spaghetti/php-cs-fixer-config",
+    "description": "PhpCsFixer config",
+    "type": "library",
+    "keywords": [
+        "config",
+        "cs-fixer",
+        "php",
+        "php-cs-fixer",
+        "symfony"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "thanks": {
+            "name": "spaghetti/php-cs-fixer-config",
+            "url": "https://github.com/spaghettisolutions/php-cs-fixer-config"
+        }
+    }
+}
