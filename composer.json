@@ -11,9 +11,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=8.0.0"
-    },
-    "require-dev": {
+        "php": ">=8.0.0",
         "friendsofphp/php-cs-fixer": "*"
     },
     "minimum-stability": "dev",
